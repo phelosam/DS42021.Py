@@ -29,13 +29,13 @@ public class DEVs4 {
      }
      static double cal(double len , double wid){
      double  per ;
-     per = len * wid ;
+     per = (len + wid)*2 ;
      return per ;
      }
     
      static double calc(double len , double wid){
      double  area ;
-     area = (0.5*wid)*len ;
+     area = wid*len ;
      return area ;
      }
         
